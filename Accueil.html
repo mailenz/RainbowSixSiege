@@ -13,33 +13,36 @@
 </head>
 <body>
 <header>
-    <div>
-        <nav class="main-nav hamburger-menu">
-            <input id="menu__toggle" type="checkbox"/>
-            <label class="menu__btn" for="menu__toggle">
-                <span></span>
-            </label>
 
-            <!--   Menu -->
-            <ul class="menu__box">
-                <li><a class="menu__item" href="ModesdeJeu.html">Modes de jeu</a></li>
-                <li><a class="menu__item" href="Cartes.html">Cartes</a></li>
-                <li><a class="menu__item" href="Saisons.html">Saisons</a></li>
-                <li><a class="menu__item" href="Opérateurs.html">Operateurs</a></li>
+    <nav role="navigation">
+        <div id="menuToggle">
+
+            <input type="checkbox" />
+
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+
+            <ul id="menu">
+                <a href="ModesdeJeu.html"><li>Modes de jeu</li></a>
+                <a href="Cartes.html"><li>Cartes</li></a>
+                <a href="Saisons.html"><li>Saisons</li></a>
+                <a href="Opérateurs.html"><li>Opérateurs</li></a>
+                <a href="#" target="_blank"><li>test</li></a>
             </ul>
-        </nav>
-    </div>
+        </div>
+    </nav>
 
-    <div>
-        <a class=link-header" href="Accueil.html">
+
+        <a class="link-header" href="Accueil.html">
             <img class="title-r6" src="img/title-r6.png" alt="logo-r6">
         </a>
-    </div>
-
 </header>
 <main>
     <div class="contener">
-        <img class="image-aruni" src="img/Aruni_R6.jpg" alt="Personnage Aruni"/>
+        <img class="image-aruni" src="img/Aruni_R6.jpg" alt="Personnage Aruni">
         <h1 class="main-title">Operation Neon Down</h1>
         <p class="paragraphes-r6">Si vous voyez un laser, faites attention.
             Nighthaven la cachait précieusement,
@@ -54,7 +57,10 @@
 
             <img class="image-operateurs-noirs" src="img/bg_r6_operators.JPG" alt="Opérateurs en fond"/>
             <div class="bouton-center">
+                <a href="Decouvrir.html">
                 <button class="glow-on-hover" type="button">Découvrir le jeu</button>
+                </a>
+
             </div>
         </div>
 
